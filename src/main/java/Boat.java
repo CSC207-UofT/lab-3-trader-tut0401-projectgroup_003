@@ -5,6 +5,7 @@ public class Boat implements Drivable, Tradable {
         this.maxSpeed = 150;
     }
 
+
     @Override
     public void upgradeSpeed() {
         this.maxSpeed++;
