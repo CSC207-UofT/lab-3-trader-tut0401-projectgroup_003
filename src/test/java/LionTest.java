@@ -8,16 +8,12 @@ public class LionTest {
 
     @Before
     public void setUp() throws Exception {
-        Lion king = new Lion(1500, 5, 700);
+        king = new Lion(1500, 5, 700);
     }
 
     @Test(timeout = 50)
     public void TestGetPrice() {
-        assertEquals(700*1/3, king.getPrice());
+        assertEquals(1500, king.getPrice());
     }
 
-    @Test(timeout = 50)
-    public void TestToString() {
-        assertEquals("This is the meat of a deer", king.toString());
-    }
 }
