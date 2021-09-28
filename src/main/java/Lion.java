@@ -11,7 +11,8 @@ public class Lion implements Tradable {
 
     @Override
     public int getPrice() {
-        return this.price*1/3;
+        int value = this.price;
+        return value;
     }
 
 }
